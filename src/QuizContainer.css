@@ -1,5 +1,4 @@
 .QuizContainer {
-  width: calc(100vw - 8rem);
   height:calc(100vh - 8rem);
 }
 .reactLogo {
@@ -84,13 +83,14 @@
 
 
 @media screen and (max-width: 768px) {
+  
   .startQuizButton{
     left: 40%;
-    top: 70vh;
+    top: 75vh;
   }
   .reactLogo {
-    height: 15rem;
-    left: 30%;
+    height: 180px;
+    left: 34%;
     top: 38vh;
    }
 }
