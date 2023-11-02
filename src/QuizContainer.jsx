@@ -11,7 +11,7 @@ export default function QuizContainer() {
   return (
     <div className="QuizContainer">
       <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="reactLogo " alt="React logo" />
+          <img src={reactLogo} className="reactLogo" alt="React logo" />
         </a> 
         
       <button className="startQuizButton" onClick={start}><span>Click!</span><span>START</span></button>

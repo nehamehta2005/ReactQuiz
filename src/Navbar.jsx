@@ -11,7 +11,7 @@ export default function Navbar() {
       </Link>
 
       <ul>
-        <li className="active">
+        <li className="home">
           <Link to="/">Home</Link>
         </li>
         <li>
