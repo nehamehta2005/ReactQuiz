@@ -3,7 +3,7 @@ import "./HowToPlay.css";
 
 function HowToPlay() {
   return (
-    <div className="parentContainer">
+  
       <div className="outerContainer">
         <div className="innerContainer">
           <h2>How to Play</h2>
@@ -22,7 +22,7 @@ function HowToPlay() {
           </ol>
         </div>
       </div>
-    </div>
+
   );
 }
 
