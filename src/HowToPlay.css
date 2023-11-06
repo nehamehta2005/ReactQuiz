@@ -32,12 +32,10 @@
   }
 
   .innerContainer {
-    width: 80%;
+    width: 92%;
     padding: 1rem;
     font-size: 1rem;  
   }
 
-  .email {
-    font-size: 0.9rem;  
-  }
+  
 }
