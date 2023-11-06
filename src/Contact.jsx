@@ -2,7 +2,7 @@ import "./HowToPlay.css";
 import React from "react";
 
 function Contact() {
-  return (
+  return ( <div className="parentContainer">
     <div className="outerContainer">
       <div className="innerContainer">
         <h1>Contact </h1>
@@ -10,8 +10,9 @@ function Contact() {
           If you have any questions or feedback, please feel free to reach out
           to us:
         </p>
-        <p>Email: nehasmehta2005@gmail.com</p>
+        <p className="email">Email: nehasmehta2005@gmail.com</p>
       </div>
+    </div>
     </div>
   );
 }

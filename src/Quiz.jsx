@@ -33,7 +33,7 @@ export default function Quiz() {
     setShowScore(false);
   };
 
-  return (
+  return (<div className="parentContainer">
     <div className="Quiz">
       <div className="QuizInnerLayout">
         {showScore ? (
@@ -77,6 +77,7 @@ export default function Quiz() {
           </>
         )}
       </div>
+    </div>
     </div>
   );
 }

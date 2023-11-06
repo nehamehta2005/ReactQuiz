@@ -20,12 +20,12 @@
 
 .question-count {
   padding: 1rem 1rem 0 1rem;
-  font-size: 18px;
+  font-size: 1.5rem;
 }
 
 .question-text {
   padding: 0rem 1rem 1rem 1rem;
-  font-size: 24px;
+  font-size: 2rem;
   margin-top: 10px;
   margin-bottom: 20px;
 }
@@ -131,4 +131,23 @@ button.incorrect {
 .startQuiz:hover span:nth-child(2) {
   color: transparent;
   transform: rotateX(-90deg);
+}
+@media screen and (max-width: 1024px) {
+  .parentContainer {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .Quiz {
+    padding: 1rem;
+  }
+  .question-count, .question-text{
+    font-size: 1rem;
+  }
+  .QuizInnerLayout {
+    width: 80%;
+    padding: 1rem;
+    font-size: 1rem;
+  }
 }
