@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Quiz from "./Quiz";
 import Navbar from "./Navbar";
 import QuizContainer from "./QuizContainer";
@@ -8,7 +8,7 @@ import HowToPlay from "./HowToPlay";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <Routes>
         <Route path="/" element={<QuizContainer />} /> {/* Set QuizContainer as the home component */}
@@ -16,7 +16,7 @@ function App() {
         <Route path="/howtoplay" element={<HowToPlay />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
